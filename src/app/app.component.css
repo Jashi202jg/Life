@@ -1,0 +1,58 @@
+.topjumbo {
+    background-color: #262725  !important; 
+    height: 210px;
+    border-radius: 0px !important;
+}
+.life-icon{
+    height: 85px;
+    width: 85px;
+    vertical-align: middle;
+}
+#life{
+    font-family: 'Lora', serif;
+    color: #00B0FF;
+    font-size: 50px;
+}
+#lifesub{
+    color:red;
+    font-size: 15px;
+    font-family: 'Macondo', cursive;
+}
+
+.basenav{
+    background-color: #262725;
+    height: 35px;
+}
+.nav-link{
+    color: white;
+    outline: none;
+    font-family: 'Oswald', sans-serif;
+}
+#copyright{
+    color:  #c1cfb4 ;
+    font-size: 12px;
+}
+
+.fb,.tweet{
+    color: blue;
+    margin-right: 25px;
+}
+.insta,.utube{
+    color: red;
+    margin-right: 25px;
+}
+
+.btn{
+ height: 35px;
+ background-color: #262725;
+ outline: none;
+ color: white;
+ font-family: 'Oswald', sans-serif;   
+}
+.btn:hover{
+    color: blueviolet;
+}
+.btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+}

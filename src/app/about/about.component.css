@@ -1,0 +1,82 @@
+.col-sm-3 h3{
+    color:black  ;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.col-sm-3 p{
+    font-family:'Source Sans Pro', sans-serif;
+    background-color:white  ;
+    padding-bottom: 20px;
+}
+
+.devimg{
+  width: 150px;
+  height: 150px;  
+}  
+  
+.heading{
+    font-family: 'Patua One', cursive;
+}  
+.main-des{
+    font-family: 'Lora', serif;
+    font-size: 16px;
+}
+.about-des{
+    font-size: 18px;
+    font-family: 'Bellefair', serif;
+}
+
+hr.style15 {
+	border-top: 4px double #8c8b8b;
+	text-align: center;
+}
+hr.style15:after {
+	content: '\002665';
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	padding: 0 10px;
+	background: #f0f0f0;
+	color: #8c8b8b;
+	font-size: 18px;
+}
+.journey{
+    text-align: center;
+}
+.line-center{
+    margin:0;padding:0 10px;
+    background:#fff;
+    display:inline-block;
+    font-family: 'Patua One', cursive;
+}
+.line-team{
+    
+    text-align:center;
+    position:relative;
+    z-index:2;
+    
+}
+.line-team:after{
+    content:"";
+    position:absolute;
+    top:50%;
+    left:0;
+    right:0;
+    border-top:solid 1px red;
+    z-index:-1;
+}
+
+h4{
+    font-family: 'Josefin Sans', serif;  
+}
+
+.fade_rule {
+    height: 1px;
+    background-color: #E6E6E6;
+    border: 0;
+    background-image: linear-gradient(to left , white 2%, #E6E6E6 50%, white 98%);
+    background-image: -o-linear-gradient(to left , white 2%, #E6E6E6 50%, white 98%);
+    background-image: -moz-linear-gradient(to left , white 2%, #E6E6E6 50%, white 98%);
+    background-image: -webkit-linear-gradient(to left , white 2%, #E6E6E6 50%, white 98%);
+    background-image: -ms-linear-gradient(to left , white 2%, #E6E6E6 50%, white 98%);
+    background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, white), color-stop(0.5, gray), color-stop(0.98, white) );
+}

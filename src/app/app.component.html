@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Life | Connecting Blood Donors</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Macondo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">  
+    
+  </head>
+  <body>
+    
+    <div class="jumbotron text-center topjumbo">
+      
+      <p id='life'><img class="life-icon" src="../assets/img/1.png">Life</p> 
+      <p id='lifesub'>❤️️Connecting Blood Donors❤️️</p>
+      
+    </div>
+    <router-outlet></router-outlet>
+    <div class="basenav">
+      <ul class="nav justify-content-center">
+    
+        <a routerLink="/home" class="btn">Home</a>
+
+        <a routerLink="/privacy-policy" class="btn">Privacy Policy</a>
+
+        <li class="nav-item">
+          <button type="button" class="btn" (click)="openModal(template)">Contact</button>
+     
+          <ng-template #template>
+            <div class="modal-header">
+            <h4 class="modal-title pull-left">Contact Us</h4>
+            <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+            <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+              <p>Jithin Lal - 9447965819</p>
+              <p>Jashim Gafoor - 9946167742</p>
+              <p>Hari krishnan - 8281645500</p>
+              <p>Ajay - 9656214051</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn" (click)="modalRef.hide()">Close</button>
+            </div>
+          </ng-template>
+        </li>
+    
+        <a routerLink="/about" class="btn">About Us</a>
+      </ul>
+    </div>
+   
+    <div class="basenav">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <span id="copyright">© 2018 - LIFE. All Rights Reserved.</span>
+        </li>
+      </ul>
+    </div>
+  
+    <div class="basenav">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a href="#"><i class="fa fa-facebook fb fa-lg"></i></a>
+        </li>
+        <li class="nav-item">
+          <a href="#"><i class="fa fa-instagram insta fa-lg"></i></a>
+        </li>
+        <li class="nav-item">
+          <a href="#"><i class="fa fa-twitter tweet fa-lg"></i></a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.youtube.com/channel/UC2yzqXNGQg01V3ObKp-nM0g" target="blank"><i class="fa fa-youtube utube fa-lg"></i></a>
+        </li>
+      </ul>
+    </div>
+   
+  </body>
+</html>
